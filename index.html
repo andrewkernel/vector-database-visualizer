@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projected Embedding Space</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="prompt-area" aria-label="Prompt">
+      <label for="conceptInput">Prompt</label>
+      <textarea id="conceptInput" spellcheck="false" rows="8">dog
+cat
+tiger</textarea>
+      <button id="visualizeButton" type="button">Visualize</button>
+    </section>
+
+    <section class="graph-area" aria-label="Projected embedding space">
+      <h1>Projected embedding space</h1>
+      <canvas id="graphCanvas" width="1200" height="760" aria-label="Dimensional vector graph"></canvas>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
