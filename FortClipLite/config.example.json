@@ -1,0 +1,20 @@
+{
+  "Enabled": false,
+  "ClipSeconds": 30,
+  "SegmentSeconds": 2,
+  "Width": 1920,
+  "Height": 1080,
+  "Fps": 60,
+  "BitrateMbps": 35,
+  "Encoder": "auto",
+  "CaptureMode": "auto",
+  "DisplayIndex": 0,
+  "IncludeMouse": false,
+  "AudioMode": "auto",
+  "AudioDevice": "",
+  "AudioFallback": "silent",
+  "AudioBitrateKbps": 160,
+  "Hotkey": "Ctrl+Alt+F10",
+  "ClipDirectory": ".\\clips",
+  "FfmpegPath": ""
+}
